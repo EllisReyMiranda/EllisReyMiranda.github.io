@@ -1,0 +1,100 @@
+body{
+    background-color: #FEE7AC;
+}
+h3 {
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+#userInput {
+    width: 1200px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+
+#passInput {
+    width: 1200px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+.name{
+    font-family: 'Kavoon', cursive;
+    position: relative;
+    font-size: 50px;
+    top: 50px;
+    left: 100px;
+    display: inline;
+}
+
+#button {
+    background-color: #B4F8F8; 
+    color: #000000; 
+    padding: 30px 150px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    position: relative;
+    top: 100px;
+    left: 180px;
+    font-size: 34px;
+    font-family: 'Kavoon', cursive;
+    border: 2px solid #333;
+
+}
+#button:hover {
+    background-color: #18d8259a; 
+}
+#button1 {
+    background-color: #B4F8F8; 
+    color: #000000; 
+    padding: 30px 150px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    position: relative;
+    top: 100px;
+    left: 380px;
+    font-size: 34px;
+    font-family: 'Kavoon', cursive;
+    border: 2px solid #333;
+
+}
+#button1:hover {
+    background-color: #18d8259a; 
+}
+.password-label {
+    
+    font-family: 'Kavoon', cursive;
+    position: relative;
+    font-size: 50px;
+    top: 70px;
+    left: 100px;
+  }
+  
+  
+  .password-container {
+    margin-bottom: 20px;
+  }
+  
+ 
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "learnyouhtml": "^1.0.2"
+  },
+  "name": "miranda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "learnyouhtml" : "learnyouhtml",
+  "verify" : "learnyouhtml verify index.html",
+"run" : "learnyouhtml run index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

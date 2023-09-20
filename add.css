@@ -1,0 +1,60 @@
+body {
+    background-color: #FCB7E9;
+}
+#userInput {
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 170px;
+}
+
+#IncomeInput {
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+
+.balance{
+    font-family: 'Kavoon', cursive;
+    position: relative;
+    font-size: 50px;
+    top: 150px;
+    left: 100px;
+    display: inline;
+}
+.income{
+    font-family: 'Kavoon', cursive;
+    position: relative;
+    font-size: 50px;
+    top: 190px;
+    left: 100px;
+   
+}
+button {
+    background-color: #B4F8F8; 
+    color: #000000; 
+    padding: 30px 150px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    position: relative;
+    top: 200px;
+    left: 580px;
+    font-size: 34px;
+    font-family: 'Kavoon', cursive;
+
+}
+button:hover {
+    background-color: #18d8259a; 
+}
