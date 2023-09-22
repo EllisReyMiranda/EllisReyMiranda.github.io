@@ -1,0 +1,70 @@
+body{
+    animation: rainbowColorChange 20s linear infinite; 
+    border-radius: 10px; 
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 1600% 1600%; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes rainbowColorChange {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+h1{
+    color: aliceblue;
+    position: relative;
+    left: 600px;
+    bottom: 195px;
+    font-size: 50px;
+    font-family: 'Kavoon', cursive;
+    -webkit-text-stroke-color:black  ;
+    -webkit-text-stroke-width:2px ;
+
+
+    
+}  
+.box{
+    background-color: black;
+    height: 500px;
+    width: 1100px;
+    position: relative;
+  left: 200px;
+  top: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+ #text{
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    right: 570px;
+    top: 50px;
+     -webkit-text-stroke-color:black  ;
+    -webkit-text-stroke-width:0.5px ;
+
+}
+#port{
+    color: aliceblue;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    font-size: 50px;
+    font-family: 'Kavoon', cursive;
+    -webkit-text-stroke-color:black  ;
+    -webkit-text-stroke-width:2px ;
+
+
+    
+}
+#port:hover{
+    color: rgb(232, 10, 10);
+}
+
+
+
