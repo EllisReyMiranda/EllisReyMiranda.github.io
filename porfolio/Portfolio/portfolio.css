@@ -1,0 +1,151 @@
+body{
+    animation: rainbowColorChange 20s linear infinite; 
+    border-radius: 10px; 
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 1600% 1600%; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes rainbowColorChange {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+.box{
+    background-color: black;
+    height: 500px;
+    width: 1100px;
+    position: relative;
+  left: 200px;
+  top: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+h1{
+    color: aliceblue;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    font-size: 50px;
+    font-family: 'Kavoon', cursive;
+    -webkit-text-stroke-color:black  ;
+    -webkit-text-stroke-width:2px ;
+
+
+    
+}  
+
+#text {
+    position: relative;
+    left: 600px;
+    bottom: 195px;
+    text-decoration: none;
+}
+#text:hover{
+    color: red;
+}
+#port:hover{
+    color: red;
+}
+
+
+
+
+
+h2{
+    color: aliceblue;
+    position: relative;
+padding-bottom: 35px;
+    font-size: 50px;
+   left: 50px;
+    
+}
+
+.fashion{
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+    height: 250px;
+    width: 250px;
+}
+
+.wine{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 370px;
+    bottom: 300px;
+    
+}
+
+.burger{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 450px;
+    bottom: 300px;
+}
+
+#fashion{
+    position: relative;
+    left: 300px;
+    bottom: 320px;
+    font-size: 45px;
+}
+
+#wine{
+    color: aliceblue;
+    position: relative;
+    left: 625px;
+    bottom: 445px;
+    font-size: 45px;
+}
+
+#burger{
+    color: aliceblue;
+    position: relative;
+    left: 950px;
+    bottom: 570px;
+    font-size: 45px;
+}
+#ellis{
+    width: 200px;
+    height: 200px;
+    position: relative;
+  top: 5px;
+  left: 630px;
+}
+#ellis:hover{
+   background-color: rgb(86, 79, 79);
+}
+
+.box2{
+    background-color: black;
+    height: 500px;
+    width: 1100px;
+    position: relative;
+  left: 200px;
+ bottom: 400px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.finance{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#finance{
+    color: aliceblue;
+    position: relative;
+   left: 80px;
+}
